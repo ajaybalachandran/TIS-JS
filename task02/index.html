@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsTask2</title>
+    <style>
+        *{
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <input type="text" placeholder="name" id="id_name" required>
+        </div>
+        <div>
+            <input type="text" placeholder="age" id="id_age" required>
+        </div>
+        <div>
+            <input type="submit" value="save" onclick="createCookie()">
+        </div>
+    </form>
+
+
+
+    <div>
+        <input type="submit" value="Show Cookie" onclick="getCookie()">
+    </div>
+    <div>
+        <input type="submit" value="Clear Cookie" onclick="deleteCookie()">
+    </div>
+
+    <p id="data"></p>
+    <script src="./cookies.js"></script>
+</body>
+</html>
