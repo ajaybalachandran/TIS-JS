@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    <script src="./todo.js"></script>
+    <title>JsTask13</title>
+    <style>
+        *{
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <input type="text" placeholder="Enter a new todo" id="todo">
+        </div>
+        <div>
+            <input type="submit" value="Add" id="add_btn">
+        </div>
+        <div>
+            <table id="myTable">
+                <tbody>
+                  <tr>
+                    <td><h4 style="margin: 0;">My Todos</h4></td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>
